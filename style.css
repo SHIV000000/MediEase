@@ -1,0 +1,76 @@
+/* Reset some default browser styles */
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    text-align: center;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+}
+
+header h1 {
+    font-size: 28px;
+}
+
+header p {
+    font-size: 18px;
+}
+
+/* Upload Form Styles */
+.upload-section {
+    padding: 20px;
+    margin-top: 50px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+input[type="file"] {
+    display: none;
+}
+
+label {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+button {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+/* Results Page Styles */
+.results-section {
+    padding: 20px;
+    margin-top: 50px;
+}
+
+.results-section h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.results-section p {
+    font-size: 18px;
+}
