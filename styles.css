@@ -1,0 +1,129 @@
+/* Reset some default browser styles */
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    text-align: center;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+}
+
+header h1 {
+    font-size: 36px;
+    letter-spacing: 3px;
+}
+
+header p {
+    font-size: 20px;
+}
+
+/* Upload Form Styles */
+.upload-section {
+    background-color: #fff;
+    padding: 40px;
+    margin-top: 30px;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+input[type="file"] {
+    display: none;
+}
+
+label {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 20px;
+    font-size: 16px;
+}
+
+button {
+    background-color: #333;
+    color: #fff;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 20px;
+    font-size: 18px;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #555;
+}
+
+/* Results Page Styles */
+.results-section {
+    background-color: #fff;
+    padding: 40px;
+    margin-top: 30px;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.results-section h2 {
+    font-size: 28px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.results-section p {
+    font-size: 18px;
+    color: #666;
+}
+
+/* Form Styling */
+input[type="file"] {
+    display: none;
+}
+
+label {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 20px;
+    font-size: 16px;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+label:hover {
+    background-color: #555;
+    transform: scale(1.05);
+}
+
+button {
+    background-color: #333;
+    color: #fff;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 20px;
+    font-size: 18px;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #555;
+}
