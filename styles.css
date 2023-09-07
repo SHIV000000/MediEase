@@ -1,4 +1,3 @@
-/* Reset some default browser styles */
 body, h1, h2, p {
     margin: 0;
     padding: 0;
@@ -6,20 +5,22 @@ body, h1, h2, p {
 
 /* Global Styles */
 body {
-    font-family: Arial, sans-serif;
-    background-color: #f0f0f0;
+    font-family: 'Arial', sans-serif;
+    background-color: #f7f7f7;
     text-align: center;
+    line-height: 1.6;
 }
 
 header {
     background-color: #333;
     color: #fff;
     padding: 20px 0;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
 }
 
 header h1 {
     font-size: 36px;
-    letter-spacing: 3px;
+    letter-spacing: 2px;
 }
 
 header p {
@@ -30,9 +31,15 @@ header p {
 .upload-section {
     background-color: #fff;
     padding: 40px;
-    margin-top: 30px;
+    margin: 30px auto;
+    max-width: 600px;
     border-radius: 5px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+}
+
+.upload-section:hover {
+    transform: scale(1.02);
 }
 
 form {
@@ -48,17 +55,16 @@ input[type="file"] {
 label {
     background-color: #333;
     color: #fff;
-    padding: 10px 20px;
+    padding: 12px 24px;
     cursor: pointer;
     border-radius: 5px;
     margin-top: 20px;
-    font-size: 16px;
+    font-size: 18px;
     transition: background-color 0.3s, transform 0.2s;
 }
 
 label:hover {
     background-color: #555;
-    transform: scale(1.05);
 }
 
 button {
@@ -81,9 +87,15 @@ button:hover {
 .results-section {
     background-color: #fff;
     padding: 40px;
-    margin-top: 30px;
+    margin: 30px auto;
+    max-width: 600px;
     border-radius: 5px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+}
+
+.results-section:hover {
+    transform: scale(1.02);
 }
 
 .results-section h2 {
