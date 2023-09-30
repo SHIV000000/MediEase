@@ -1,3 +1,4 @@
+/* Reset some default styles */
 body, h1, h2, p {
     margin: 0;
     padding: 0;
@@ -108,3 +109,21 @@ button:hover {
     font-size: 18px;
     color: #666;
 }
+
+/* Added styles for a dynamic interaction */
+.results-section button {
+    background-color: #007BFF;
+    color: #fff;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 20px;
+    font-size: 18px;
+    transition: background-color 0.3s;
+}
+
+.results-section button:hover {
+    background-color: #0056b3;
+}
+
