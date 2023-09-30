@@ -3,23 +3,34 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MediEase - Upload Medical Report</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="style.css">
+    <title>MediEase - Simplify Medical Reports</title>
 </head>
 <body>
     <header>
         <h1>MediEase</h1>
-        <p>Upload Your Medical Report</p>
+        <p>Simplify Medical Reports for Better Understanding</p>
     </header>
 
     <main>
         <section class="upload-section">
-            <form action="process-report.php" method="post" enctype="multipart/form-data">
-                <input type="file" name="reportFile" id="reportFile" accept=".pdf, .jpg, .png" required>
-                <label for="reportFile">Choose a File</label>
+            <h2>Upload Your Medical Report</h2>
+            <form id="upload-form">
+                <input type="file" id="report-upload" accept=".pdf, .jpg, .png" required>
                 <button type="submit">Upload</button>
             </form>
         </section>
+
+        <section class="results-section">
+            <h2>Your Simplified Medical Report</h2>
+            <div id="simplified-report"></div>
+        </section>
     </main>
+
+    <footer>
+        <p>&copy; 2023 MediEase</p>
+    </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>
