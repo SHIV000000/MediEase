@@ -17,13 +17,15 @@
             <h2>Upload Your Medical Report</h2>
             <form id="upload-form">
                 <input type="file" id="report-upload" accept=".pdf, .jpg, .png" required>
+                <label for="report-upload">Choose File</label>
                 <button type="submit">Upload</button>
             </form>
         </section>
 
-        <section class="results-section">
+        <section class="results-section" id="results-section">
             <h2>Your Simplified Medical Report</h2>
-            <div id="simplified-report"></div>
+            <p id="simplified-report"></p>
+            <button id="view-original">View Original Report</button>
         </section>
     </main>
 
