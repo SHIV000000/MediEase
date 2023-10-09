@@ -1,10 +1,6 @@
-/* Reset some default styles */
-body, h1, h2, p {
-    margin: 0;
-    padding: 0;
-}
+/* Add styles for navigation menu, hero section, and upload form */
+/* Customize these styles to match your design preferences */
 
-/* Global Styles */
 body {
     font-family: 'Arial', sans-serif;
     background-color: #f7f7f7;
@@ -12,24 +8,74 @@ body {
     line-height: 1.6;
 }
 
-header {
+/* Navigation Menu Styles */
+nav {
     background-color: #333;
     color: #fff;
     padding: 20px 0;
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
 }
 
-header h1 {
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+/* Hero Section Styles */
+.hero {
+    background-image: url('your-background-image.jpg');
+    background-size: cover;
+    color: #fff;
+    padding: 100px 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+h1, h2, p {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
     font-size: 36px;
     letter-spacing: 2px;
 }
 
-header p {
-    font-size: 20px;
+h2 {
+    font-size: 28px;
+}
+
+p {
+    font-size: 18px;
+}
+
+.cta-button {
+    background-color: #333;
+    color: #fff;
+    padding: 12px 24px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 18px;
 }
 
 /* Upload Form Styles */
-.upload-section {
+.section {
     background-color: #fff;
     padding: 40px;
     margin: 30px auto;
@@ -39,7 +85,7 @@ header p {
     transition: transform 0.2s;
 }
 
-.upload-section:hover {
+.section:hover {
     transform: scale(1.02);
 }
 
@@ -84,46 +130,4 @@ button:hover {
     background-color: #555;
 }
 
-/* Results Page Styles */
-.results-section {
-    background-color: #fff;
-    padding: 40px;
-    margin: 30px auto;
-    max-width: 600px;
-    border-radius: 5px;
-    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
-    transition: transform 0.2s;
-}
-
-.results-section:hover {
-    transform: scale(1.02);
-}
-
-.results-section h2 {
-    font-size: 28px;
-    color: #333;
-    margin-bottom: 20px;
-}
-
-.results-section p {
-    font-size: 18px;
-    color: #666;
-}
-
-/* Added styles for a dynamic interaction */
-.results-section button {
-    background-color: #007BFF;
-    color: #fff;
-    padding: 12px 24px;
-    border: none;
-    cursor: pointer;
-    border-radius: 5px;
-    margin-top: 20px;
-    font-size: 18px;
-    transition: background-color 0.3s;
-}
-
-.results-section button:hover {
-    background-color: #0056b3;
-}
 
