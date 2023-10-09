@@ -3,25 +3,41 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>MediEase - Original Medical Report</title>
+    <title>MediEase - Results</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
-        <h1>MediEase</h1>
-        <p>Original Medical Report</p>
+        <nav>
+            <div class="container">
+                <h1>MediEase</h1>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="#signup-section">Sign Up</a></li>
+                    <li><a href="#results-section">Results</a></li>
+                </ul>
+            </div>
+        </nav>
+        <div class="hero">
+            <div class="container">
+                <h2>Your Medical Report</h2>
+                <p>View your medical report summary.</p>
+            </div>
+        </div>
     </header>
 
-    <main>
-        <section class="results-section">
-            <h2>Original Medical Report</h2>
-            <!-- Display the original medical report content here -->
-            <p>This is the original medical report content.</p>
-        </section>
-    </main>
+    <section id="results-section" class="section">
+        <div class="container">
+            <!-- Display the medical report summary here -->
+            <h2>Medical Report Summary</h2>
+            <div id="report-summary">
+                <!-- Dynamically insert report summary content here using JavaScript -->
+            </div>
+        </div>
+    </section>
 
-    <footer>
-        <p>&copy; 2023 MediEase</p>
-    </footer>
+    <!-- Include the JavaScript file at the end -->
+    <script src="script.js"></script>
 </body>
 </html>
+
