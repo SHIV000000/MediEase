@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', () => {
-    const uploadForm = document.getElementById('upload-form');
+    const uploadForm = document.getElementById('upload-form'):
     const reportUpload = document.getElementById('report-upload');
     const simplifiedReport = document.getElementById('simplified-report');
     const viewOriginalButton = document.getElementById('view-original');
