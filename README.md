@@ -1,2 +1,2 @@
-# Stroke_prediction
-Stroke prediction machine learning project
+#  MEDIEASE -- Heart-Stroke prediction Webapp
+Heart-Stroke prediction machine learning project
