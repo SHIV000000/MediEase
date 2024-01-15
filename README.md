@@ -1,4 +1,4 @@
-Mediease - Heart-Stroke Prediction Web Application
+## Mediease - Heart-Stroke Prediction Web Application
 Overview:
 Mediease is an innovative web application that predicts the likelihood of heart strokes based on user-provided health data. The project integrates advanced machine learning, user-centric design, and robust backend architecture to deliver a transformative healthcare solution.
 
