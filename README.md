@@ -14,6 +14,8 @@ Clone the Repository:
 ```bash
 
 git clone (https://github.com/SHIV000000/MediEase.git)
+```
+```bash
 cd mediease
 ```
 Create a Virtual Environment:
