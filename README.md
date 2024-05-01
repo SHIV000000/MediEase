@@ -11,35 +11,39 @@ Pip (Python package installer)
 Steps:
 Clone the Repository:
 
-bash
-Copy code
+```bash
+
 git clone (https://github.com/SHIV000000/MediEase.git)
 cd mediease
+```
 Create a Virtual Environment:
 
-bash
+```bash
 Copy code
 python -m venv venv
+```
 Activate the Virtual Environment:
 
 On Windows:
-bash
+```bash
 
 venv\Scripts\activate
+```
 On macOS/Linux:
-bash
+```bash
 
 source venv/bin/activate
+```
 Install Dependencies:
 
-bash
-Copy code
+```bash
 pip install -r requirements.txt
+```
 Run the Web Application:
 
-bash
-Copy code
+```bash
 python app.py
+```
 Access the Application:
 Open your web browser and go to http://127.0.0.1:5000/
 
