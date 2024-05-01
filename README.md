@@ -44,32 +44,15 @@ Run the Web Application:
 ```bash
 python app.py
 ```
-Access the Application:
+
+## Access the Application:
 Open your web browser and go to http://127.0.0.1:5000/
 
 Interact with Mediease:
 
 Fill in the required health information in the input form.
 Click the "Submit" button to get the prediction results.
-Explore the Code:
 
-Frontend: Check the templates folder for HTML files.
-Backend: Explore the app.py file for Flask application logic.
-Machine Learning: Refer to the machine learning model in the model.pkl file.
-Project Structure:
-app.py: Main Flask application file.
-templates/: HTML files for frontend.
-static/: Static files (CSS, JS, images, etc.).
-model.pkl: Pickle file containing the trained machine learning model.
-requirements.txt: List of Python dependencies.
-Contributing:
-If you'd like to contribute to Mediease, please follow these guidelines:
-
-Fork the repository.
-Create a new branch for your feature or bug fix.
-Make your changes and submit a pull request.
-Issues and Feedback:
-If you encounter any issues or have feedback, please open an issue. Your input is highly valued.
 
 License:
 This project is licensed under the MIT License - see the LICENSE file for details.
