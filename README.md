@@ -13,7 +13,7 @@ Steps:
 
 ```bash
 
-git clone (https://github.com/SHIV000000/MediEase.git)
+git clone https://github.com/SHIV000000/MediEase.git
 ```
 ```bash
 cd mediease
