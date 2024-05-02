@@ -21,7 +21,6 @@ cd mediease
 ###Create a Virtual Environment:
 
 ```bash
-Copy code
 python -m venv venv
 ```
 Activate the Virtual Environment:
