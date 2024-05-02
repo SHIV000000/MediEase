@@ -9,7 +9,7 @@ Prerequisites:
 Python (version 3.7 or later)
 Pip (Python package installer)
 Steps:
-Clone the Repository:
+###Clone the Repository:
 
 ```bash
 
@@ -18,7 +18,7 @@ git clone (https://github.com/SHIV000000/MediEase.git)
 ```bash
 cd mediease
 ```
-Create a Virtual Environment:
+###Create a Virtual Environment:
 
 ```bash
 Copy code
@@ -27,27 +27,28 @@ python -m venv venv
 Activate the Virtual Environment:
 
 On Windows:
-```bash
 
+```bash
 venv\Scripts\activate
 ```
 On macOS/Linux:
-```bash
 
+```bash
 source venv/bin/activate
 ```
-Install Dependencies:
+
+### Install Dependencies:
 
 ```bash
 pip install -r requirements.txt
 ```
-Run the Web Application:
+### Run the Web Application:
 
 ```bash
 python app.py
 ```
 
-## Access the Application:
+### Access the Application:
 Open your web browser and go to http://127.0.0.1:5000/
 
 Interact with Mediease:
