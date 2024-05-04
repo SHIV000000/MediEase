@@ -12,9 +12,9 @@ Steps:
 ###Clone the Repository:
 
 ```bash
-
 git clone https://github.com/SHIV000000/MediEase.git
 ```
+
 ```bash
 cd mediease
 ```
@@ -23,7 +23,7 @@ cd mediease
 ```bash
 python -m venv venv
 ```
-Activate the Virtual Environment:
+### Activate the Virtual Environment:
 
 On Windows:
 
